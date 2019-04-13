@@ -17,6 +17,7 @@ class Owner
   end
 
   def save
+    binding.pry
     self.all << self
   end
 
