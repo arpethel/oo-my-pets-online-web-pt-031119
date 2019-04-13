@@ -64,6 +64,9 @@ class Owner
   def feed_fish
     @pets[:fishes][0].mood = "happy"
   end
-  
+
+  def sell_pets
+    binding.pry
+  end  
 
 end
