@@ -36,13 +36,12 @@ class Owner
   end
 
   def pets
-    # binding.pry
     @pets
   end
 
-
-  # def species_name=(species)
-  #   @species = species
-  # end
+  def buy_fish(something)
+    binding.pry
+  end
+    
 
 end
