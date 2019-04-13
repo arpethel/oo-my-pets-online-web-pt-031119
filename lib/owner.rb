@@ -76,7 +76,7 @@ class Owner
 
   def list_pets
     binding.pry
-    "I have "
+    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cat].count} cat(s)."
   end
 
 end
