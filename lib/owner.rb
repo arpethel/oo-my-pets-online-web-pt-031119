@@ -21,6 +21,11 @@ class Owner
     @@count
   end
 
+  def self.reset_all
+    binding.pry
+    self.clear
+  end
+
   # def save
   #   binding.pry
   #   self.all << self
