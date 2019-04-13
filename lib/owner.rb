@@ -25,14 +25,10 @@ class Owner
     @@count = 0
   end
 
-  # def save
-  #   binding.pry
-  #   self.all << self
-  # end
-
-  # def self.species(species)
-  #   @species = species
-  # end
+  def species(species)
+    binding.pry
+    @species = species
+  end
 
   # def species_name=(species)
   #   @species = species
