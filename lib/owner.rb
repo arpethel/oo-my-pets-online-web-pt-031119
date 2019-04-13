@@ -13,5 +13,5 @@ class Owner
   def self.count
     @@count
   end
-  
+
 end
