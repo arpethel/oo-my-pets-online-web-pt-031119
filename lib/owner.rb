@@ -73,8 +73,7 @@ class Owner
     # # end
     # binding.pry
     pets.each do |k, v|
-      binding.pry
-      pet.each do |k, v|
+      v.each do |ele|
         binding.pry
       end
     end
