@@ -66,19 +66,12 @@ class Owner
   end
 
   def sell_pets
-    # # if !@pets.empty?
-    # #   @pets[:dogs][0].mood = "nervous"
-    # #   @pets[:cats][0].mood = "nervous"
-    # #   @pets[:fishes][0].mood = "nervous"
-    # # end
-    # binding.pry
     pets.each do |k, v|
       v.each do |ele|
         ele.mood = "nervous"
       end
     end
     pets
-    # binding.pry
   end
 
 end
