@@ -69,6 +69,6 @@ class Owner
     @pets[:dogs][0].mood = "nervous"
     @pets[:cats][0].mood = "nervous"
     @pets[:fishes][0].mood = "nervous"
-  end  
+  end
 
 end
