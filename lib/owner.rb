@@ -31,7 +31,6 @@ class Owner
   end
 
   def say_species
-    # binding.pry
     "I am a #{species}."
   end
 
@@ -39,9 +38,9 @@ class Owner
     @pets
   end
 
-  def buy_fish(fish)
+  def buy_fish(fishes_name)
     # binding.pry
-    @fish = fish
+    @fish = fishes_name
     @pets[:fishes] = @fish
   end
 
