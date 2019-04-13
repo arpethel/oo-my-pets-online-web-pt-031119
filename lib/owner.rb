@@ -13,8 +13,8 @@ class Owner
   end
 
   def self.all
-    binding.pry
-    @@all
+    # binding.pry
+    @@all << self
   end
 
   # def save
