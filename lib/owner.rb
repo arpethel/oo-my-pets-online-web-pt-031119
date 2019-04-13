@@ -71,7 +71,7 @@ class Owner
     # #   @pets[:cats][0].mood = "nervous"
     # #   @pets[:fishes][0].mood = "nervous"
     # # end
-    # # binding.pry
+    binding.pry
     # pets.each do |pet|
     #   binding.pry
     #   pet.each do |k, v|
