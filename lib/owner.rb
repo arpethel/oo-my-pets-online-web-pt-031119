@@ -66,7 +66,9 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
+    @pets[:dogs][0].mood = "nervous"
+    @pets[:cats][0].mood = "nervous"
+    @pets[:fishes][0].mood = "nervous"
   end  
 
 end
