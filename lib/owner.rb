@@ -71,13 +71,13 @@ class Owner
     # #   @pets[:cats][0].mood = "nervous"
     # #   @pets[:fishes][0].mood = "nervous"
     # # end
-    binding.pry
-    # pets.each do |pet|
-    #   binding.pry
-    #   pet.each do |k, v|
-    #     binding.pry
-    #   end
-    # end
+    # binding.pry
+    pets.each do |k, v|
+      binding.pry
+      pet.each do |k, v|
+        binding.pry
+      end
+    end
   end
 
 end
