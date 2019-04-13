@@ -6,6 +6,7 @@ class Fish
   def initialize(name)
     @name = name
     @mood = "nervous"
+    binding.pry
   end
 
   def fish_name=(name)
