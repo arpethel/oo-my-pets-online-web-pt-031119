@@ -34,7 +34,7 @@ class Owner
     "I am a #{species}."
   end
 
-  def pets
+  def pets(pets)
     binding.pry
   end
 
