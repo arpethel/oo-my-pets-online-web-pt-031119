@@ -75,6 +75,7 @@ class Owner
     pets.each do |pet|
       pet.each do |species|
         binding.pry
+      end
     end
   end
 
