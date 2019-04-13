@@ -27,7 +27,7 @@ class Owner
 
   def species
     # binding.pry
-    @species
+    @species = "human"
   end
 
   # def species_name=(species)
