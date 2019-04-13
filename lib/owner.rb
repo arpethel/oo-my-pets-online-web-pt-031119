@@ -71,6 +71,7 @@ class Owner
       @pets[:cats][0].mood = "nervous"
       @pets[:fishes][0].mood = "nervous"
     end
+    binding.pry
   end
 
 end
