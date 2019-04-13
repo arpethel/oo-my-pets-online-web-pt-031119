@@ -13,13 +13,14 @@ class Owner
   end
 
   def self.all
+    binding.pry
     @@all
   end
 
-  def save
-    binding.pry
-    self.all << self
-  end
+  # def save
+  #   binding.pry
+  #   self.all << self
+  # end
 
   # def self.species(species)
   #   @species = species
