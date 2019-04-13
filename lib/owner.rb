@@ -1,6 +1,6 @@
 require 'pry'
 class Owner
-  attr_accessor :pets, :name, :species
+  attr_accessor :pets, :name#, :species
 
   @@all = []
   @@count = 0
@@ -14,8 +14,8 @@ class Owner
     @@count
   end
 
-  def species(species)
-    @species = species
-  end
+  # def species(species)
+  #   @species = species
+  # end
 
 end
