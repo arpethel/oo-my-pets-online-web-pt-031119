@@ -74,4 +74,8 @@ class Owner
     pets.clear
   end
 
+  def list_pets(this)
+    binding.pry
+  end
+
 end
