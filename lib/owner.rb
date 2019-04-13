@@ -74,9 +74,11 @@ class Owner
     # binding.pry
     pets.each do |k, v|
       v.each do |ele|
-        binding.pry
+        ele.mood = "nervous"
       end
     end
+    pets
+    binding.pry
   end
 
 end
