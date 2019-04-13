@@ -25,7 +25,7 @@ class Owner
     @@count = 0
   end
 
-  def species(species)
+  def species
     binding.pry
     @species = species
   end
