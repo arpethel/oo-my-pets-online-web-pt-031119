@@ -29,7 +29,7 @@ class Owner
     @species = "human"
   end
 
-  def say_species(species)
+  def say_species
     binding.pry
   end
 
