@@ -36,6 +36,7 @@ class Owner
 
   def pets
     # binding.pry
+    hash = {}
   end
 
 
