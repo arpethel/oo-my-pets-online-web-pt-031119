@@ -71,7 +71,7 @@ class Owner
         ele.mood = "nervous"
       end
     end
-    binding.pry
+    # binding.pry
     pets.clear
   end
 
