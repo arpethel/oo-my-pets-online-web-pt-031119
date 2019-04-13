@@ -36,7 +36,7 @@ class Owner
   end
 
   def pets
-    binding.pry
+    # binding.pry
     @pets
   end
 
