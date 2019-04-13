@@ -8,6 +8,7 @@ class Owner
 
   def initialize(name)
     @name = name
+    @species = species
     @@count + 1
   end
 
@@ -15,9 +16,9 @@ class Owner
     @@count
   end
 
-  def self.species(species)
-    @species = species
-  end
+  # def self.species(species)
+  #   @species = species
+  # end
 
   def species_name=(species)
     @species = species
