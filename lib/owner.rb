@@ -73,7 +73,7 @@ class Owner
     # end
     # binding.pry
     pets.each do |pet|
-      pet.each do |species|
+      pet.each do |k, v|
         binding.pry
       end
     end
