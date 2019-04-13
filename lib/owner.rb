@@ -10,6 +10,7 @@ class Owner
     @name = name
     @species = species
     @@count + 1
+    binding.pry
     @@all << self
   end
 
