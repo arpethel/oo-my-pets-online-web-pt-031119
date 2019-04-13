@@ -72,6 +72,7 @@ class Owner
       end
     end
     pets
+    binding.pry
   end
 
 end
