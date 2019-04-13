@@ -10,13 +10,15 @@ class Owner
     @name = name
     @species = species
     @@count + 1
-    # binding.pry
     @@all << self
   end
 
   def self.all
-    # binding.pry
     @@all
+  end
+
+  def self.count
+    @@count
   end
 
   # def save
