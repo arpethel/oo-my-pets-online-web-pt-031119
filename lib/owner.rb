@@ -12,7 +12,7 @@ class Owner
     @@count + 1
   end
 
-  def self.all
+  def all
     # binding.pry
     @@all << self
   end
