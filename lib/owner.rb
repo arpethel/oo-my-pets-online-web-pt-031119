@@ -34,6 +34,10 @@ class Owner
     "I am a #{species}."
   end
 
+  def pets
+    binding.pry
+  end
+
 
   # def species_name=(species)
   #   @species = species
