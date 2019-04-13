@@ -67,9 +67,9 @@ class Owner
 
   def sell_pets
     # binding.pry
-    @pets[:dogs][0].mood = "nervous" if !@pets[:dogs].empty?
-    @pets[:cats][0].mood = "nervous" if !@pets[:cats].empty?
-    @pets[:fishes][0].mood = "nervous" if !@pets[:fishes].empty?
+    @pets[:dogs][0].mood = "nervous" if @pets[:dogs].empty?
+    @pets[:cats][0].mood = "nervous" if @pets[:cats].empty?
+    @pets[:fishes][0].mood = "nervous" if @pets[:fishes].empty?
   end
 
 end
