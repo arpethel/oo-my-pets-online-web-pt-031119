@@ -10,6 +10,7 @@ class Owner
     @name = name
     @species = species
     @@count += 1
+    @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
   end
 
@@ -35,8 +36,8 @@ class Owner
   end
 
   def pets
-    # binding.pry
-    hash = {}
+    binding.pry
+    @pets
   end
 
 
