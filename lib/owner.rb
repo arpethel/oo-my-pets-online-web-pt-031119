@@ -39,7 +39,7 @@ class Owner
     @pets
   end
 
-  def buy_fish(something)
+  def buy_fish(name)
     binding.pry
   end
 
