@@ -15,7 +15,7 @@ class Owner
     @@count
   end
 
-  def species
+  def species(species)
     binding.pry
   end
 
